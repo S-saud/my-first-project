@@ -1,5 +1,5 @@
 const User = require("../models/User");
-const asyncHandler = require("../middlewares/asyncHandler"); // Filhal maan lo ApiError yahin hai
+const asyncHandler = require("../middlewares/asynchandler"); // Filhal maan lo ApiError yahin hai
 
 // Create User
 const createUser = asyncHandler(async (req, res) => {

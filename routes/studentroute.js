@@ -10,7 +10,7 @@ const {
   updateUserByEmail,
   deleteUserById,
   deleteUserByEmail,
-} = require("../controllers/studentController");
+} = require("../controllers/studentcontroller");
 
 
 router.post("/", createUser);
